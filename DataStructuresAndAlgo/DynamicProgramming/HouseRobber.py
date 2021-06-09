@@ -14,6 +14,7 @@ houses = [6, 7, 1, 30, 8, 2, 4]
 print(houseRobberTD(houses, 0, {}))
 
 
+
 def houseRobberBU(houses, currentIndex):
     '''BOTTOM UP'''
     tempArr = [0] * (len(houses)+2)
